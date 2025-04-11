@@ -23,13 +23,13 @@ PlayerSettings:
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 0.484
   m_SplashScreenLogoAnimationZoom: 1
-  m_SplashScreenBackgroundLandscapeAspect: 1.776618
+  m_SplashScreenBackgroundLandscapeAspect: 1.7777778
   m_SplashScreenBackgroundPortraitAspect: 1
   m_SplashScreenBackgroundLandscapeUvs:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
+    width: 0.9993476
     height: 1
   m_SplashScreenBackgroundPortraitUvs:
     serializedVersion: 2
@@ -262,6 +262,9 @@ PlayerSettings:
     m_Automatic: 0
   - m_BuildTarget: WindowsStandaloneSupport
     m_APIs: 12000000150000000200000011000000010000000b000000
+    m_Automatic: 0
+  - m_BuildTarget: WebGLSupport
+    m_APIs: 0b00000008000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
@@ -542,7 +545,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Minimal
+  webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
@@ -567,6 +570,7 @@ PlayerSettings:
   additionalIl2CppArgs: 
   apiCompatibilityLevelPerPlatform:
     Standalone: 1
+    WebGL: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Unity desde cero
