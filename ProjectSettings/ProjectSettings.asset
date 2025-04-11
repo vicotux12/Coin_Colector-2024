@@ -17,11 +17,11 @@ PlayerSettings:
   m_SplashScreenBackgroundColor: {r: 0.29411763, g: 0.10380621, b: 0.10380621, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
-  m_SplashScreenOverlayOpacity: 0.5
-  m_SplashScreenAnimation: 1
+  m_SplashScreenOverlayOpacity: 0.821
+  m_SplashScreenAnimation: 2
   m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
-  m_SplashScreenBackgroundAnimationZoom: 1
+  m_SplashScreenBackgroundAnimationZoom: 0.484
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 1.776618
   m_SplashScreenBackgroundPortraitAspect: 1
@@ -38,8 +38,8 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: e2c002cf8a0ee364dacd3d05041a3382, type: 3}
-    duration: 2
+  - logo: {fileID: 21300000, guid: 1b7db38dbf6b91c929ed9060c1c9c399, type: 3}
+    duration: 4.9
   m_SplashScreenBackgroundLandscape: {fileID: 1, guid: 00000000000000000000000000000000,
     type: 0}
   m_SplashScreenBackgroundPortrait: {fileID: 0}
@@ -121,11 +121,11 @@ PlayerSettings:
   wiiUAllowScreenCapture: 1
   wiiUControllerCount: 0
   m_SupportedAspectRatios:
-    4:3: 0
-    5:4: 0
-    16:10: 1
-    16:9: 1
-    Others: 0
+    4:3: 1
+    5:4: 1
+    16:10: 0
+    16:9: 0
+    Others: 1
   bundleVersion: 0.1.01 beta
   preloadedAssets:
   - {fileID: 0}
@@ -261,7 +261,7 @@ PlayerSettings:
     m_APIs: 150000000b000000
     m_Automatic: 0
   - m_BuildTarget: WindowsStandaloneSupport
-    m_APIs: 0200000011000000010000000b000000
+    m_APIs: 12000000150000000200000011000000010000000b000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
