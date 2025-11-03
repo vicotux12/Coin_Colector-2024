@@ -1,6 +1,7 @@
 #region Previas
-using UnityEngine; 
+using UnityEngine;
 using System.Collections; 
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 #if UNITY_EDITOR
@@ -14,10 +15,18 @@ public class CanvasPause : MonoBehaviour {
 		canvasPausa.enabled = false;
 		Time.timeScale = 1;
 	}
-	void Update(){
-		if (Input.GetButtonDown ("Cancel")){
+	void Update()
+	{
+		if (Input.GetButtonDown("Cancel"))
+		{
 			Pause();
-			}	
+		}
+	}
+	
+	public void scene(string name){ 
+		Time.timeScale=1;
+		SceneManager.LoadScene (name);
+
 	}
 	public void Pause(){		
 		canvasPausa.enabled = !canvasPausa.enabled;
